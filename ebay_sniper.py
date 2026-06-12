@@ -11,7 +11,7 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 EBAY_APP_ID      = os.getenv("EBAY_APP_ID", "")  # Free eBay developer key
 
-SNIPE_SECONDS    = 2  # Place bid this many seconds before auction ends
+SNIPE_SECONDS    = 5  # Place bid this many seconds before auction ends
 
 # List of auctions to snipe
 # Add item numbers and max bids here
