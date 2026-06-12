@@ -6,10 +6,10 @@ import pytz
 import json
 
 # CONFIG
-TELEGRAM_TOKEN   = os.getenv("8518811167:AAEiPN-wa_bdiZCHGCDmas8FaH84lhYe1og")
-TELEGRAM_CHAT_ID = os.getenv("8773798653")
+TELEGRAM_TOKEN   = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
-EBAY_APP_ID      = os.getenv("BrianCor-Mysniper-PRD-9a937d837-dfdfab74")  # Free eBay developer key
+EBAY_APP_ID      = os.getenv("EBAY_APP_ID", "")  # Free eBay developer key
 
 SNIPE_SECONDS    = 2  # Place bid this many seconds before auction ends
 
